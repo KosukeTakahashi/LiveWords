@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/dae_edit_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/hint_word"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/dae_edit_meaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dae_edit_word"
+        android:layout_margin="8dp"
+        android:hint="@string/hint_meaning"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/dae_edit_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dae_edit_meaning"
+        android:layout_margin="8dp"
+        android:hint="@string/hint_type"/>
+</RelativeLayout>

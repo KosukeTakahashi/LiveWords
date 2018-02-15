@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="@string/key_bg_color"
+        android:title="@string/pref_bg_color"
+        android:summary="@string/summ_bg_color"
+        android:defaultValue="0x000000" />
+
+    <EditTextPreference
+        android:key="@string/key_tx_color"
+        android:title="@string/pref_tx_color"
+        android:summary="@string/summ_tx_color"
+        android:defaultValue="0xFFFFFF" />
+
+    <EditTextPreference
+        android:key="@string/key_tx_size"
+        android:title="@string/pref_tx_size"
+        android:summary="@string/summ_tx_size"
+        android:defaultValue="40"
+        android:inputType="number"/>
+
+    <CheckBoxPreference
+        android:key="@string/key_tap_to_reload"
+        android:title="@string/pref_tap_to_reload"
+        android:summary="@string/summ_tap_to_reload"
+        android:defaultValue="true" />
+</PreferenceScreen>

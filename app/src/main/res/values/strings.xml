@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LiveWords</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_add_entry">Add Entry</string>
+    <string name="action_settings">設定</string>
+    <string name="hint_word">単語</string>
+    <string name="hint_meaning">意味</string>
+    <string name="hint_type">品詞</string>
+    <string name="label_add">追加</string>
+    <string name="label_cancel">キャンセル</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Keys -->
+    <string name="key_bg_color">BG_COLOR</string>
+    <string name="key_tx_color">TEXT_COLOR</string>
+    <string name="key_tx_size">TEXT_SIZE</string>
+    <string name="key_tap_to_reload">TAP_TO_RELOAD</string>
+
+    <!-- Preference Summery -->
+    <string name="summ_bg_color">壁紙の背景の色をHTMLカラーコードで指定します。</string>
+    <string name="summ_tx_color">文字の色をHTMLカラーコードで指定します。</string>
+    <string name="summ_tx_size">文字の大きさを整数で指定します。</string>
+    <string name="summ_tap_to_reload">壁紙をタップして次の単語を表示する</string>
+
+    <!-- Preferences -->
+    <string name="pref_bg_color">背景色</string>
+    <string name="pref_tx_color">文字色</string>
+    <string name="pref_tx_size">文字サイズ</string>
+    <string name="pref_tap_to_reload">タップで更新</string>
+</resources>
